@@ -52,11 +52,9 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-
+  gem 'pg', '~> 0.11'
   # Not necessary after Raisl 5.
-  # gem 'rails12factor'
+  # gem 'rails_12factor'
 end
 
 group :test do
