@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get 'output', to: 'pages#output'
   get 'about', to: 'pages#about'
 
+  resources :articles
+
 end
